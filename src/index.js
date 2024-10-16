@@ -10,9 +10,14 @@ class Student extends React.Component {
     return <h2> Hi, my name is Yureka.</h2>;
   }
 }
+function FuncStudent() {
+  return <h2> Hi, I am being called by a function, FuncStudent </h2>;
+}
+
 root.render(
   <>
     <Student />
+    <FuncStudent />
   </>
 );
 
